@@ -6,7 +6,6 @@ class TestLab1_5(unittest.TestCase):
 
     # 1. Tests for check_multiple
     def test_multiple_of_both(self):
-        """Test a number that is a multiple of both 3 and 5 (15)."""
         self.assertTrue(check_multiple(15))
 
     def test_multiple_of_one(self):
